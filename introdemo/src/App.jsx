@@ -1,35 +1,55 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState, useEffect } from "react";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    // Ensure body takes full height and remove margin
+    document.body.style.margin = "0";
+    document.body.style.height = "100vh";
+    document.body.style.backgroundColor = "#ecf0f1"; // Set background color
+  }, []);
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div style={styles.container}>
+      <h1 style={styles.heading}>Welcome to My React Page</h1>
+      <p style={styles.text}>This is a simple React app with interactive features.</p>
+      <button style={styles.button} onClick={() => setCount(count + 1)}>
+        Click me! Count: {count}
+      </button>
+    </div>
+  );
 }
 
-export default App
+const styles = {
+  container: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center", // Vertical centering
+    alignItems: "center",     // Horizontal centering
+    height: "100vh", // Full height of the viewport
+    textAlign: "center", // Ensures text is centered
+    fontFamily: "Arial, sans-serif",
+  },
+  heading: {
+    color: "#2c3e50",
+    marginBottom: "20px", // Space between heading and paragraph
+  },
+  text: {
+    color: "#555",
+    fontSize: "18px",
+    marginBottom: "20px", // Space between paragraph and button
+  },
+  button: {
+    backgroundColor: "#3498db",
+    color: "#fff",
+    padding: "10px 20px",
+    border: "none",
+    borderRadius: "5px",
+    cursor: "pointer",
+    fontSize: "16px",
+    marginTop: "10px",
+  },
+};
+
+export default App;
