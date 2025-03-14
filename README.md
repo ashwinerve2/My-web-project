@@ -7,3 +7,5 @@
 # Deployed the pages suing Azure Static Web App.  17/02/2025  15:45
 # Installed Node and Express. Deployed pages using Node and Express.  01/03/2025  22:15
 # Created an app Introdemo and pushed to the Git.  28/02/2025  01:26
+# Converted my earlier combined.html to React App.  01/03/2025  19:59
+
