@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Database CRUD Operations</title>
+</head>
+<body>
+  <h1>CRUD Operations with Database</h1>
+  
+  <h2>Add New User</h2>
+  <form id="addUserForm" method="POST">
+    <input type="text" id="name" name="name" placeholder="Name" required>
+    <input type="text" id="class" name="class" placeholder="Class" required>
+    <input type="text" id="seat" name="seat" placeholder="Seat" required>
+    <button type="submit">Add User</button>
+  </form>
+  
+  <h2>View Users</h2>
+  <button id="view-users">View Users</button>
+  <ul id="user-list"></ul>
+
+  <h2>Delete User</h2>
+  <label for="userId">Enter User ID to Delete:</label>
+  <input type="number" id="userId" name="userId" required>
+  <button id="delete-user">Delete User</button>
+  
+  <script>
+    // Adding a new user
+    document.getElementById("addUserForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const name = document.getElementById("name").value;
+      const className = document.getElementById("class").value;  // Make sure it's 'class'
+      const seat = document.getElementById("seat").value;
+
+      fetch('http://localhost:3000/users', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, class: className, seat }),  // Match the server-side 'class'
+      })
+      .then(response => response.json())
+      .then(data => {
+        alert("User added successfully!");
+        console.log(data);
+        document.getElementById("addUserForm").reset(); // Reset the form
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
+    });
+
+    // Viewing all users
+    document.getElementById("view-users").addEventListener("click", function() {
+      fetch('http://localhost:3000/users')
+        .then(response => response.json())
+        .then(data => {
+          const userList = document.getElementById("user-list");
+          userList.innerHTML = '';
+          data.users.forEach(user => {
+            const listItem = document.createElement("li");
+            listItem.textContent = `ID: ${user.id}, Name: ${user.name}, Class: ${user.class}, Seat: ${user.seat}`;
+            userList.appendChild(listItem);
+          });
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+        });
+    });
+
+    // Deleting a user
+    document.getElementById("delete-user").addEventListener("click", function() {
+      const userId = document.getElementById("userId").value;
+      fetch(`http://localhost:3000/users/${userId}`, {
+        method: 'DELETE',
+      })
+      .then(response => response.json())
+      .then(data => {
+        alert("User deleted successfully!");
+        console.log(data);
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
+    });
+  </script>
+</body>
+</html>

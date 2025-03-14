@@ -1,7 +1,7 @@
 const express = require('express');
 const sqlite3 = require('sqlite3').verbose();
 const bodyParser = require('body-parser');
-const path = require('path');
+const path = require('path'); // For resolving file paths
 
 // Create the Express app
 const app = express();
@@ -9,11 +9,16 @@ const app = express();
 // Middleware to parse JSON
 app.use(bodyParser.json());
 
-// Define the absolute path to the SQLite database
-const dbPath = path.resolve(__dirname, 'database.db');
+// Serve index.html when the root URL is requested
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', 'frontend', 'index.html'));
+});
+
+// Serve static files (HTML, CSS, JS)
+app.use(express.static('frontend'));
 
 // Open SQLite database
-const db = new sqlite3.Database(dbPath, sqlite3.OPEN_READWRITE | sqlite3.OPEN_CREATE, (err) => {
+const db = new sqlite3.Database('./database.db', (err) => {
   if (err) {
     console.error('Error opening database:', err.message);
   } else {
@@ -42,25 +47,18 @@ app.get('/users', (req, res) => {
   });
 });
 
-// GET Route: Get a specific user by ID
-app.get('/users/:id', (req, res) => {
-  const { id } = req.params;
-  const query = 'SELECT * FROM users WHERE id = ?';
-  db.get(query, [id], (err, row) => {
-    if (err) {
-      return res.status(500).json({ error: err.message });
-    }
-    if (!row) {
-      return res.status(404).json({ message: 'User not found' });
-    }
-    res.status(200).json({ user: row });
-  });
-});
-
 // POST Route: Create a new user
 app.post('/users', (req, res) => {
-  const { name, className, seat } = req.body;
+  const { name, class: className, seat } = req.body;
+
+  // Validation: Check if the fields are provided
+  if (!name || !className || !seat) {
+    return res.status(400).json({ error: 'All fields are required.' });
+  }
+
+  // SQL query to insert the user into the database
   const query = 'INSERT INTO users (name, class, seat) VALUES (?, ?, ?)';
+  
   db.run(query, [name, className, seat], function(err) {
     if (err) {
       return res.status(400).json({ error: err.message });
@@ -68,26 +66,6 @@ app.post('/users', (req, res) => {
     res.status(201).json({
       message: 'User created successfully',
       user: { id: this.lastID, name, class: className, seat }
-    });
-  });
-});
-
-// PUT Route: Update an existing user
-app.put('/users/:id', (req, res) => {
-  const { id } = req.params;
-  const { name, className, seat } = req.body;
-  const query = 'UPDATE users SET name = ?, class = ?, seat = ? WHERE id = ?';
-  
-  db.run(query, [name, className, seat, id], function(err) {
-    if (err) {
-      return res.status(400).json({ error: err.message });
-    }
-    if (this.changes === 0) {
-      return res.status(404).json({ message: 'User not found' });
-    }
-    res.status(200).json({
-      message: 'User updated successfully',
-      user: { id, name, class: className, seat }
     });
   });
 });
