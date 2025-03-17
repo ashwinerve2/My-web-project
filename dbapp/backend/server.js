@@ -2,20 +2,29 @@ const express = require('express');
 const sqlite3 = require('sqlite3').verbose();
 const bodyParser = require('body-parser');
 const path = require('path'); // For resolving file paths
+const cors = require('cors');
+
 
 // Create the Express app
 const app = express();
 
+//Enable CORS
+app.use(cors());
+
 // Middleware to parse JSON
 app.use(bodyParser.json());
 
+
+
+
+// (In development, the React app is served by npm start on port 3000, so we comment these out)
 // Serve index.html when the root URL is requested
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '..', 'frontend', 'index.html'));
-});
+// app.get('/', (req, res) => {
+//   res.sendFile(path.join(__dirname, '..', 'frontend', 'index.html'));
+// });
 
 // Serve static files (HTML, CSS, JS)
-app.use(express.static('frontend'));
+// app.use(express.static('frontend'));
 
 // Open SQLite database
 const db = new sqlite3.Database('./database.db', (err) => {
@@ -89,8 +98,8 @@ app.delete('/users/:id', (req, res) => {
   });
 });
 
-// Start the server
-const PORT = 3000;
+// Start the server on port 5000
+const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
