@@ -1,0 +1,22 @@
+config:
+  target: 'http://localhost:3000'  # URL of your application
+  phases:
+    - duration: 60  # Test duration in seconds
+      arrivalRate: 5  # Number of new virtual users per second
+    - duration: 120  # Keep the load for 2 minutes
+      arrivalRate: 10  # Increase traffic to 10 users per second
+
+scenarios:
+  - flow:
+      - get:
+          url: "/"  # This simulates a request to the homepage (modify as per your app)
+      - post:
+          url: "/api/users"  # This simulates a POST request to your user API
+          json:
+            name: "John Doe"
+            class: "10A"
+            seat: "20"  # Example payload for creating a user (adjust as necessary)
+      - get:
+          url: "/users"  # Simulate a request to view the list of users
+      - delete:
+          url: "/api/users/1"  # Simulate a request to delete a user (use the appropriate endpoint)

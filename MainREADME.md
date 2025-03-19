@@ -9,4 +9,6 @@
 # Created an app Introdemo and pushed to the Git.  28/02/2025  01:26
 # Converted my earlier combined.html to React App.  01/03/2025  19:59
 # Successfully created dbapp and tested CURL functions. Added to Git Repo.  14/03/2025  13:23
+# Connected React app and Database, Used bootstrap toolkit to modify app UI.  17/02/2025  16:00
+# Successfully done Unit test (Jest), E2E test (Cypress) and Load test (Artillery).  19/03/2025  12:45
 
