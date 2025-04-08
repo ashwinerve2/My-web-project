@@ -1,7 +1,7 @@
 # Project phase 1 - Definition and planning
 
 
-Welcome to the NumBase
+_Welcome to NumBase_
 
 Easily manage and explore number systems using this comprehensive toolkit.
 
@@ -11,7 +11,7 @@ Convert values between binary, decimal, hexadecimal, and octal formats, perform 
 ## 1. User Personas
 
 
-Persona 1: Mike Shinoda – University Student (Computer Science Major)
+_Persona 1: Mike Shinoda – University Student (Computer Science Major)_
 
 Age: 24
 
