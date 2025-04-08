@@ -1,7 +1,7 @@
 # Project phase 1 - Definition and Planning
 
 
-Welcome to NumBase. This is the first step.
+Welcome to NumBase. This is the first phase.
 
 Easily manage and explore number systems using this comprehensive toolkit.
 
@@ -69,7 +69,7 @@ __Needs:__
 
 Users: Mike (student), Priya (developer)
 
-__Description: User selects input and output number systems (e.g., Binary to Decimal), enters a value, and sees the converted result.__
+Description: User selects input and output number systems (e.g., Binary to Decimal), enters a value, and sees the converted result.
 
 __User Flow:__
 *	Open the tool.
@@ -85,7 +85,7 @@ __User Flow:__
 
 Users: Mike, Priya
 
-__Description: User inputs two values and selects an arithmetic operation (+, −, ×, ÷) in a chosen number system.__
+Description: User inputs two values and selects an arithmetic operation (+, −, ×, ÷) in a chosen number system.
 
 __User Flow:__
 *	Open the calculator tab/section.
@@ -102,7 +102,7 @@ __User Flow:__
 
 Actors: Mike
 
-__Description: While entering a number, conversion results update in real-time.__
+Description: While entering a number, conversion results update in real-time.
 
 __User Flow:__
 *	Select input/output systems.
@@ -117,7 +117,7 @@ __User Flow:__
 
 Actors: Priya
 
-__Description: User clicks a "copy" button next to the result to use it elsewhere (e.g., in code or notes).__
+Description: User clicks a "copy" button next to the result to use it elsewhere (e.g., in code or notes).
 
 __User Flow:__
 *	Complete a conversion or calculation.
@@ -132,7 +132,7 @@ __User Flow:__
 
 Actors: Mike
 
-__Description: User checks the history section to reuse or verify past conversions.__
+Description: User checks the history section to reuse or verify past conversions.
 
 __User Flow:__
 *	Scroll or navigate to the history panel.
@@ -303,11 +303,13 @@ __Error Handling & Validation:__
 
 
 
-Agile-Inspired Development Approach
+
+
+__Agile-Inspired Development Approach:__
 *	Iterations: Weekly sprints with specific goals
 *	Version Control: Git + GitHub for tracking progress.
 
-Testing Approach:
+__Testing Approach:__
 *	Manual UI testing during development
 *	Unit testing of core conversion/calculation functions
 *	Functional testing for form inputs and buttons
@@ -317,24 +319,24 @@ Testing Approach:
 
 ### User Testing Plan
 
-Testing Group:
+__Testing Group:__
 *	1 university student
 *	1 computer science professional
 
 
-Testing Tools:
+__Testing Tools:__
 *	Observation during use
 *	Google Form or Notion page for collecting feedback
 *	Screen recording for UI/UX review.
 
 
-Usability Metrics:
+_-Usability Metrics:__
 *	Were they able to complete a task without help?
 *	Was the interface clear and responsive?
 *	Any UI confusion or bugs detected?
 
 
-Success Criteria
+__Success Criteria:__
 *	All core features functional: Conversion, Calculator, Live output, Copy, History
 *	Error messages visible for invalid input
 *	Clean, responsive UI 
