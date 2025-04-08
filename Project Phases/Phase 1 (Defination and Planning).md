@@ -296,7 +296,7 @@ Error Handling & Validation
 |Week 12	|Implement Home page and Calculator module           |
 |Week 13	|Implement Converter and History module              |
 |Week 14	|Polish UI + test features + bug fixes               |
-|---------|--------------------------------------------------------|
+
 
 
 Agile-Inspired Development Approach
