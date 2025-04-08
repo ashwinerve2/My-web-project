@@ -292,7 +292,7 @@ __Error Handling & Validation:__
 ## 5. Project Management and User Testing
 
 
-### Project Timeline & Milestones
+### Project Milestones
 
 |Week	  | Task
 |---------|--------------------------------------------------------|
