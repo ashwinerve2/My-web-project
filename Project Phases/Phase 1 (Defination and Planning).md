@@ -69,7 +69,7 @@ __Use Case 1: Convert a Number Between Two Number Systems__
 
 Users: Mike (student), Priya (developer)
 
-Description: User selects input and output number systems (e.g., Binary to Decimal), enters a value, and sees the converted result.
+__Description: User selects input and output number systems (e.g., Binary to Decimal), enters a value, and sees the converted result.__
 
 __User Flow:__
 *	Open the tool.
@@ -85,7 +85,7 @@ __Use Case 2: Perform Arithmetic Operations in a Selected Number System__
 
 Users: Mike, Priya
 
-Description: User inputs two values and selects an arithmetic operation (+, −, ×, ÷) in a chosen number system.
+__Description: User inputs two values and selects an arithmetic operation (+, −, ×, ÷) in a chosen number system.__
 
 __User Flow:__
 *	Open the calculator tab/section.
@@ -102,7 +102,7 @@ __Use Case 3: Live Conversion While Typing__
 
 Actors: Mike
 
-Description: While entering a number, conversion results update in real-time.
+__Description: While entering a number, conversion results update in real-time.__
 
 __User Flow:__
 *	Select input/output systems.
@@ -117,7 +117,7 @@ __Use Case 4: Copy Converted Result to Clipboard__
 
 Actors: Priya
 
-Description: User clicks a "copy" button next to the result to use it elsewhere (e.g., in code or notes).
+__Description: User clicks a "copy" button next to the result to use it elsewhere (e.g., in code or notes).__
 
 __User Flow:__
 *	Complete a conversion or calculation.
@@ -132,7 +132,7 @@ __Use Case 5: View Recent Conversion/Calculation History__
 
 Actors: Mike
 
-Description: User checks the history section to reuse or verify past conversions.
+__Description: User checks the history section to reuse or verify past conversions.__
 
 __User Flow:__
 *	Scroll or navigate to the history panel.
@@ -146,7 +146,7 @@ __User Flow:__
 ## 3. UI Prototypes
 
 
-__Link to Figma Prototype:__ https://www.figma.com/design/RMwAqmuQ3leEg2NUr7qH9h/Untitled?node-id=0-1&t=AvCJdznBrRIZzZTJ-1
+### Link to Figma Prototype: https://www.figma.com/design/RMwAqmuQ3leEg2NUr7qH9h/Untitled?node-id=0-1&t=AvCJdznBrRIZzZTJ-1
 
 __Page 1: Home Screen – Welcome Page__
 
@@ -225,7 +225,7 @@ Middle Section:
 ## 4. Information Architecture and Technical Design
 
 
-__Information Architecture (IA)__
+### Information Architecture (IA)
 
 The app page will consist the following key sections/pages:
 
@@ -252,7 +252,7 @@ History
 
 
 
-__Technical Design__
+### Technical Design
 
 Frontend:
 *	HTML, CSS, JavaScript
