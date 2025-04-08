@@ -11,7 +11,7 @@ Convert values between binary, decimal, hexadecimal, and octal formats, perform 
 ## 1. User Personas
 
 
-__Persona 1: Mike Shinoda – University Student (Computer Science Major)__
+### Persona 1: Mike Shinoda – University Student (Computer Science Major)
 
 Age: 24
 
@@ -36,7 +36,7 @@ __Needs:__
 
 
 
-__Persona 2: Priya Joshi – Software Developer (Embedded Systems Engineer)__
+### Persona 2: Priya Joshi – Software Developer (Embedded Systems Engineer)
 
 Age: 32
 
