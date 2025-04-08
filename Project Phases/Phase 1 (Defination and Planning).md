@@ -330,7 +330,7 @@ __Testing Tools:__
 *	Screen recording for UI/UX review.
 
 
-_-Usability Metrics:__
+__Usability Metrics:__
 *	Were they able to complete a task without help?
 *	Was the interface clear and responsive?
 *	Any UI confusion or bugs detected?
