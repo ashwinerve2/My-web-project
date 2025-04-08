@@ -1,7 +1,7 @@
 # Project phase 1 - Definition and planning
 
 
-_Welcome to NumBase_
+__Welcome to NumBase__
 
 Easily manage and explore number systems using this comprehensive toolkit.
 
@@ -11,7 +11,7 @@ Convert values between binary, decimal, hexadecimal, and octal formats, perform 
 ## 1. User Personas
 
 
-_Persona 1: Mike Shinoda – University Student (Computer Science Major)_
+__Persona 1: Mike Shinoda – University Student (Computer Science Major)__
 
 Age: 24
 
@@ -35,7 +35,7 @@ Needs:
 
 
 
-Persona 2: Priya Joshi – Software Developer (Embedded Systems Engineer)
+__Persona 2: Priya Joshi – Software Developer (Embedded Systems Engineer)__
 
 Age: 32
 
@@ -64,7 +64,7 @@ Needs:
 ## 2. Use Cases and User Flows
 
 
-Use Case 1: Convert a Number Between Two Number Systems
+__Use Case 1: Convert a Number Between Two Number Systems__
 
 Users: Mike (student), Priya (developer)
 
@@ -79,7 +79,7 @@ User Flow:
 
 
 
-Use Case 2: Perform Arithmetic Operations in a Selected Number System
+__Use Case 2: Perform Arithmetic Operations in a Selected Number System__
 
 Users: Mike, Priya
 
@@ -95,7 +95,7 @@ User Flow:
 
 
 
-Use Case 3: Live Conversion While Typing
+__Use Case 3: Live Conversion While Typing__
 
 Actors: Mike
 
@@ -109,7 +109,7 @@ User Flow:
 
 
 
-Use Case 4: Copy Converted Result to Clipboard
+__Use Case 4: Copy Converted Result to Clipboard__
 
 Actors: Priya
 
@@ -124,7 +124,7 @@ User Flow:
 
 
 
-Use Case 5: View Recent Conversion/Calculation History
+__Use Case 5: View Recent Conversion/Calculation History__
 
 Actors: Mike
 
@@ -144,7 +144,7 @@ User Flow:
 
 Link to Figma Prototype: https://www.figma.com/design/RMwAqmuQ3leEg2NUr7qH9h/Untitled?node-id=0-1&t=AvCJdznBrRIZzZTJ-1
 
-Page 1: Home Screen – Welcome Page
+__Page 1: Home Screen – Welcome Page__
 
 Top Section:
 •	Title: “Welcome to Digital Number Toolkit”
@@ -163,7 +163,7 @@ Navigation:
 
 
 
-Page 2: Converter Page – Number System Converter
+__Page 2: Converter Page – Number System Converter__
 
 Top Section:
 •	Title: “Converter”
@@ -180,7 +180,7 @@ Bottom Section:
 
 
 
-Page 3: Calculator Page – Arithmetic Operations
+__Page 3: Calculator Page – Arithmetic Operations__
 
 Top Section:
 
@@ -200,7 +200,7 @@ Bottom Section:
 
 
 
-Page 4: History Page 
+__Page 4: History Page__
 
 Top Section:
 •	Title: “History”
@@ -221,7 +221,7 @@ Middle Section:
 ## 4. Information Architecture and Technical Design
 
 
-🧱 Information Architecture (IA)
+__Information Architecture (IA)__
 
 The app page will consist the following key sections/pages:
 
@@ -248,7 +248,7 @@ History
 
 
 
-Technical Design
+__Technical Design__
 
 Frontend:
 •	HTML, CSS, JavaScript
@@ -288,7 +288,7 @@ Error Handling & Validation
 ## 5. Project Management and User Testing
 
 
-🗓️ Project Timeline & Milestones
+🗓 __Project Timeline & Milestones__
 
 |Week	  | Task
 |---------|--------------------------------------------------------|
@@ -311,7 +311,7 @@ Testing Approach:
 
 
 
-User Testing Plan
+__User Testing Plan__
 
 Testing Group:
 •	1 university student
