@@ -292,7 +292,7 @@ Error Handling & Validation
 ## 5. Project Management and User Testing
 
 
-🗓️ __Project Timeline & Milestones__
+### Project Timeline & Milestones
 
 |Week	  | Task
 |---------|--------------------------------------------------------|
@@ -315,7 +315,7 @@ Testing Approach:
 
 
 
-__User Testing Plan__
+### User Testing Plan
 
 Testing Group:
 *	1 university student
