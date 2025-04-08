@@ -71,7 +71,7 @@ Users: Mike (student), Priya (developer)
 
 Description: User selects input and output number systems (e.g., Binary to Decimal), enters a value, and sees the converted result.
 
-_-User Flow:__
+__User Flow:__
 *	Open the tool.
 *	Select input number system (e.g., Binary).
 *	Select output number system (e.g., Decimal).
