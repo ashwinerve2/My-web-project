@@ -1,7 +1,7 @@
 # Project phase 1 - Definition and Planning
 
 
-Welcome to NumBase
+Welcome to NumBase. This is the first step.
 
 Easily manage and explore number systems using this comprehensive toolkit.
 
@@ -65,7 +65,7 @@ __Needs:__
 ## 2. Use Cases and User Flows
 
 
-__Use Case 1: Convert a Number Between Two Number Systems__
+### Use Case 1: Convert a Number Between Two Number Systems
 
 Users: Mike (student), Priya (developer)
 
@@ -81,7 +81,7 @@ __User Flow:__
 
 
 
-__Use Case 2: Perform Arithmetic Operations in a Selected Number System__
+### Use Case 2: Perform Arithmetic Operations in a Selected Number System
 
 Users: Mike, Priya
 
@@ -98,7 +98,7 @@ __User Flow:__
 
 
 
-__Use Case 3: Live Conversion While Typing__
+### Use Case 3: Live Conversion While Typing
 
 Actors: Mike
 
@@ -113,7 +113,7 @@ __User Flow:__
 
 
 
-__Use Case 4: Copy Converted Result to Clipboard__
+### Use Case 4: Copy Converted Result to Clipboard
 
 Actors: Priya
 
@@ -128,7 +128,7 @@ __User Flow:__
 
 
 
-__Use Case 5: View Recent Conversion/Calculation History__
+### Use Case 5: View Recent Conversion/Calculation History
 
 Actors: Mike
 
@@ -148,7 +148,7 @@ __User Flow:__
 
 ### Link to Figma Prototype: https://www.figma.com/design/RMwAqmuQ3leEg2NUr7qH9h/Untitled?node-id=0-1&t=AvCJdznBrRIZzZTJ-1
 
-__Page 1: Home Screen – Welcome Page__
+### Page 1: Home Screen – Welcome Page
 
 Top Section:
 *	Title: “Welcome to Digital Number Toolkit”
@@ -167,7 +167,7 @@ Navigation:
 
 
 
-__Page 2: Converter Page – Number System Converter__
+### Page 2: Converter Page – Number System Converter
 
 Top Section:
 *	Title: “Converter”
@@ -184,7 +184,7 @@ Bottom Section:
 
 
 
-__Page 3: Calculator Page – Arithmetic Operations__
+### Page 3: Calculator Page – Arithmetic Operations
 
 Top Section:
 
@@ -204,7 +204,7 @@ Bottom Section:
 
 
 
-__Page 4: History Page__
+### Page 4: History Page
 
 Top Section:
 *	Title: “History”
@@ -229,22 +229,22 @@ Middle Section:
 
 The app page will consist the following key sections/pages:
 
-Home
+__Home__
 *	Welcome Message
 *	Three buttons Converter, Calculator and History
 *	Copy to clipboard function.
 
-Converter
+__Converter__
 *	Number System Converter Bin,Dec,Oct,Hex
 *	Live conversion display
 *	Copy to clipboard function.
 
-Calculator
+__Calculator__
 *	Arithmetic Operations in any number system
 *	Live conversion display
 *	Copy to clipboard function.
 
-History
+__History__
 *	List of recent conversions and calculations
 *	Option to clear history
 *	Max 10 history items.
@@ -254,34 +254,34 @@ History
 
 ### Technical Design
 
-Frontend:
+__Frontend:__
 *	HTML, CSS, JavaScript
 *	Figma for UI design
 *	Tailwind CSS (optional for quick, responsive styling).
 
-Backend:
+__Backend:__
 *	Node.js + Express server run on a VM 
 
-Development Environment:
+__Development Environment:__
 *	Run on local VM (VirtualBox) 
 *	Server + DB run locally.
 
-Database:
+__Database:__
 *	SQLite for handling history table (stores operation type, input, output, number system, and timestamp)
 *	Limit to last 10 items
 *	Auto-update and render to the History section.
 
-Clipboard API:
+__Clipboard API:__
 *	Use built-in JavaScript Clipboard API for “Copy to Clipboard” functionality.
 
-Live Conversion:
+__Live Conversion:__
 *	Use JavaScript Event Listeners to update output as user types.
 
-Number System Logic:
+__Number System Logic:__
 *	Use built-in JavaScript functions like parseInt(number, base), .toString(base)
 *	Custom functions to handle different base arithmetic operations.
 
-Error Handling & Validation
+__Error Handling & Validation:__
 *	Validate inputs based on selected number system (e.g., binary only allows 0 and 1)
 *	Display user-friendly messages for invalid input.
 
