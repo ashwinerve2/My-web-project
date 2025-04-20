@@ -1,6 +1,6 @@
 # Phase 2: Basic Structure and Main Functionalities
 
-Welcome to Phase 2 of NumBase! 
+Welcome to Phase 2 of NumBase ! 
 
 We now shift from planning to execution by establishing the app’s environment, backend logic, database setup, and core functionalities.
 
