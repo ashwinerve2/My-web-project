@@ -82,7 +82,7 @@ backend/
 ### Frontend Functionalities:
 - Responsive Layout (using Figma as reference).
 - **Copy-to-clipboard**: Implemented using JavaScript's Clipboard API.
-- **Live Conversion and Calculation Updates**: Real-time updates as the user types.
+- **Live Conversion and Calculation Updates**: Real-time updates as the user types (using JS Event listeners)
 - **Dropdown Selectors**: Choose number system and arithmetic operation.
 - **Real-time Input Validation**: For binary (only 0/1), hexadecimal (0-9, A-F), etc.
 
@@ -207,11 +207,16 @@ CREATE TABLE history (
 - Clear labeling for each section.
 - Instant feedback for every interaction.
 
-### Interactions:
-- Button clicks
-- Dropdown selections.
-- Dynamic History list.
-- Copy-to-clipboard.
+### User Interactions
+- **Button Clicks**  
+  - Copy-to-clipboard functionality  
+  - Clear history records
+- **Dropdown Selections**  
+  - Choose number systems (Binary, Decimal, Hex)  
+  - Select arithmetic operations (+, −, ×, ÷)
+- **Real-Time output**  
+  - No "submit" button required
+
 
 
 
