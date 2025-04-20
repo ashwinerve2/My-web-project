@@ -19,8 +19,7 @@ Welcome to Phase 2 of NumBase! We now shift from planning to execution by establ
 ### Other Tools:
 - **Figma**: For UI design reference
 - **VS Code**: Code editor (IDE)
-- **GitHub**: For managing phases
-
+- **GitHub**: For managing and documenting phases
 ## 2. Backend
 
 ### Main Responsibilities:
@@ -201,13 +200,13 @@ CREATE TABLE history (
 
 ### UI Traits:
 - Minimalist layout for easy navigation.
-- Clear labeling for each section (Converter, Calculator, History).
+- Clear labeling for each section.
 - Instant feedback for every interaction.
 
 ### Interactions:
-- Button clicks and dropdown selections route via JavaScript functions.
-- History list updates dynamically.
-- Copy-to-clipboard.
+- Button clicks and dropdown selections.
+- Dynamic History list.
+- Easy Copy-to-clipboard.
 
 
 
