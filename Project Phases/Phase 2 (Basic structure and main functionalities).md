@@ -1,4 +1,4 @@
-# Phase 2: Backend Development - Core Implementation
+# Phase 2: Basic structure and main functionalities
 
 Welcome to Phase 2 of NumBase! We now shift from planning to execution by establishing the app’s environment, backend logic, database setup, and core functionalities.
 
