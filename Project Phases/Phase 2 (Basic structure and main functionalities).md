@@ -35,6 +35,7 @@ Welcome to Phase 2 of NumBase! We now shift from planning to execution by establ
 - **History**: Store and retrieve conversion and calculation history from the database.
 
 ### Server File Structure:
+```
 backend/
   |-- index.js            # Main server file handling all logic
   |-- db/                 # Database management
@@ -44,6 +45,7 @@ backend/
       |-- validation.js   # Input validation logic
       |-- converter.js   # Conversion logic
       |-- arithmetic.js   # Arithmetic operations logic
+```
 
 
 ### Detailed Breakdown of Logic:
