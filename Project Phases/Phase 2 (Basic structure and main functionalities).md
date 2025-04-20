@@ -1,4 +1,4 @@
-# Phase 2: Basic structure and main functionalities
+# Phase 2: Basic Structure and Main Functionalities
 
 Welcome to Phase 2 of NumBase! We now shift from planning to execution by establishing the app’s environment, backend logic, database setup, and core functionalities.
 
@@ -18,7 +18,7 @@ Welcome to Phase 2 of NumBase! We now shift from planning to execution by establ
 
 ### Other Tools:
 - **Figma**: For UI design reference
-- **VS Code**: Code editor
+- **VS Code**: Code editor (IDE)
 - **GitHub**: For managing phases
 
 ## 2. Backend
@@ -103,7 +103,7 @@ frontend/
 - Stores the 10 most recent records for conversions and calculations.
 
 ### History Table Schema:
-```sql
+
 CREATE TABLE history (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     type TEXT NOT NULL,               -- "conversion" or "calculation"
