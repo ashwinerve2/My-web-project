@@ -43,7 +43,7 @@ backend/
       |-- schema.sql      # Database schema
   |-- utils/              # Helper functions for validation, conversion, and arithmetic
       |-- validation.js   # Input validation logic
-      |-- converter.js   # Conversion logic
+      |-- converter.js    # Conversion logic
       |-- arithmetic.js   # Arithmetic operations logic
 ```
 
@@ -83,6 +83,7 @@ backend/
 - **Real-time Input Validation**: For binary (only 0/1), hexadecimal (0-9, A-F), etc.
 
 ### Frontend File Structure:
+```
 frontend/
   |-- index.html          # Home page
   |-- converter.html      # Converter page
@@ -95,6 +96,7 @@ frontend/
       |-- calculator.js   # Calculator logic
       |-- history.js      # History logic
       |-- utils.js        # Utility functions (e.g., validation, clipboard)
+```
 
 
 
@@ -105,7 +107,7 @@ frontend/
 - Stores the 10 most recent records for conversions and calculations.
 
 ### History Table Schema:
-
+```
 CREATE TABLE history (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     type TEXT NOT NULL,               -- "conversion" or "calculation"
@@ -116,6 +118,7 @@ CREATE TABLE history (
     operation TEXT,
     timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
 );
+```
 
 ### Database Logic
 
