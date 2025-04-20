@@ -202,7 +202,7 @@ CREATE TABLE history (
 ### Interactions:
 - Button clicks and dropdown selections route via JavaScript functions.
 - History list updates dynamically.
-- Copy-to-clipboard functionality shows a tooltip upon success.
+- Copy-to-clipboard.
 
 
 
