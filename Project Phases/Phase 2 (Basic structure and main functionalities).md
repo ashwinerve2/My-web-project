@@ -207,7 +207,7 @@ CREATE TABLE history (
 - Clear labeling for each section.
 - Instant feedback for every interaction.
 
-### User Interactions
+### User Interactions:
 - **Button Clicks**  
   - Copy-to-clipboard functionality  
   - Clear history records
