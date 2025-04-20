@@ -1,6 +1,8 @@
 # Phase 2: Basic Structure and Main Functionalities
 
-Welcome to Phase 2 of NumBase! We now shift from planning to execution by establishing the app’s environment, backend logic, database setup, and core functionalities.
+Welcome to Phase 2 of NumBase! 
+
+We now shift from planning to execution by establishing the app’s environment, backend logic, database setup, and core functionalities.
 
 
 ## 1. Environment Setup
@@ -162,8 +164,7 @@ CREATE TABLE history (
 - Clear button resets history.
 
 ### 5. Validation:
-- Binary system accepts only 0/1.
-- Hexadecimal system accepts 0-9 and A-F.
+- Each number system must only accept valid range of input.
 - Friendly error messages when invalid inputs are detected.
 
 ### 6. Copy to Clipboard:
@@ -187,14 +188,14 @@ CREATE TABLE history (
 
 ### Testing Approaches:
 - Manual testing of all user flows (conversion, calculation, history).
-- Unit testing of core JavaScript functions (e.g., conversion, arithmetic).
-- Functional tests for form inputs and button interactions.
-- End-to-end (E2E) testing using Playwright or Cypress.
+- Unit testing of core JavaScript functions using Jest (simple and fast).
+- Functional tests for form inputs and button interactions (Playwright).
+- End-to-end (E2E) testing also using Playwright.
 
 ### Error Handling:
 - Invalid inputs show user-friendly error messages.
 - Proper server-side error handling with try-catch blocks.
-- History management ensures smooth data handling (e.g., handling database errors).
+- History management with FIFO strategy.
 
 ## 9. User Interface and Interaction
 
@@ -207,9 +208,10 @@ CREATE TABLE history (
 - Instant feedback for every interaction.
 
 ### Interactions:
-- Button clicks and dropdown selections.
+- Button clicks
+- Dropdown selections.
 - Dynamic History list.
-- Easy Copy-to-clipboard.
+- Copy-to-clipboard.
 
 
 
