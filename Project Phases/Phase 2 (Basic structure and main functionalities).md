@@ -29,6 +29,8 @@ Welcome to Phase 2 of NumBase! We now shift from planning to execution by establ
 - Serve frontend files.
 - Connect to and manage the SQLite database.
 
+Note: Since the codes are already modular, option later to add API endpoints.
+
 ### Core Functionalities:
 - **Conversion**: Convert between number systems (binary, decimal, hexadecimal, octal).
 - **Calculations**: Perform arithmetic operations (+, −, ×, ÷) in the chosen number system.
@@ -54,8 +56,6 @@ backend/
    - Handles conversion, calculation, and history logic directly within the file.
    - Includes routes for serving static frontend files.
    - Handles all backend functionality (no API layer).
-     
-Note: We choose not to use API layer at this stage for easy learning. It will be easy to add API layer later since the codes are already modular. 
      
 2. **database.js (Database Connection and Schema)**:
    - Manages the SQLite database connection.
