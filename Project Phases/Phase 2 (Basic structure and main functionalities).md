@@ -215,7 +215,7 @@ CREATE TABLE history (
   - Choose number systems (Binary, Decimal, Hex)  
   - Select arithmetic operations (+, −, ×, ÷)
 - **Real-Time output**  
-  - No "submit" button required
+  - No "submit" button required for output.
 
 
 
