@@ -180,7 +180,7 @@ CREATE TABLE history (
 
 ### Documentation:
 - **README**: Includes setup instructions, dependencies, and how to run the app locally.
-- Inline comments for complex functions and logic.
+- Inline comments for functions and logic.
 - **Schema.sql**: Database schema for quick reference.
 - **GitHub**: Issues and pull requests to track progress and bugs.
 
