@@ -12,7 +12,7 @@ The following improvements covers all five use cases of this project:
 - **Smooth Results**: Prevented unnecessary API calls during rapid user input, ensuring smoother performance.
 - **Error Handling**: Improved error handling and feedback by catching almost all possible invalidations.
 - **Copy Button Feedback**: Added visual feedback to the copy buttons to indicate successful copying.
-- **Layout Adjustments**: Combined and clearly separated the converter and calculator sections for simplicity and ease.
+- **Layout Adjustments**: Combined and then clearly separated the converter and calculator sections for simplicity and ease.
 - **Styling Enhancements**: Applied consistent styling to headings and links to create a cohesive look.
 - **Testing**: Successfully tested core functions and interactions with Jest and Playwright. Manually tested for confirmations.
 
