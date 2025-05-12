@@ -2,7 +2,7 @@
 
 ### Description
 
-During the Phase 3 of the NumBase project, the focus was on refining the UI/UX and to create a more reliable and responsive application. The enhancements addresses user feedback and improves the overall functionality and error handling.
+During the Phase 3 of the NumBase project, the focus was on refining the application. The enhancements addresses user feedback, error handling and improves the overall functionality. The UI/UX was refined for responsiveness.
 
 ### Implementation
 
@@ -25,6 +25,6 @@ The following improvements covers all five use cases of this project:
 
 ### Outcome
 
-The enhancements led to a more polished and user-friendly application. Users can now interact with the converter and calculator more efficiently, with clear feedback and a visually appealing interface.
+The application is able to fulfill its promise as defined in previous phases. The enhancements led to a more polished and a reliable application. Users can now interact with the converter and calculator more efficiently, with clear feedback and a visually appealing interface. Still there is room for improvements. 
 
 
