@@ -14,9 +14,10 @@
 | 2025.04.27 | 6 |  Phase 3   | Backend Implementation |
 | 2025.04.29 | 5 |  Phase 3   | API Improvement and Error handling |
 | 2025.05.01 | 5 |  Phase 3   | UX Enhancements |
-| 2025.05.01 | 4 |  Phase 3   | UI Layout Refinement |
-| 2025.05.05 | 4 |  Phase 3   | Styling & Polish |
+| 2025.05.01 | 5 |  Phase 3   | UI Layout Refinement |
+| 2025.05.05 | 5 |  Phase 3   | Styling & Polish |
 | 2025.05.05 | 4 |  Phase 3   | Code Cleanup & Review |
-| 2025.05.06 | 2 |  Phase 3   | Testing|
+| 2025.05.06 | 3 |  Phase 3   | Testing|
+| 2025.05.07 | 3 |  Phase 3   | Final Documentation|
 
 
