@@ -15,7 +15,7 @@
 | 2025.05.01 | 5 |  Phase 3   | UX Enhancements |
 | 2025.05.02 | 5 |  Phase 3   | UI Layout Refinement |
 | 2025.05.05 | 5 |  Phase 3   | Styling & Polish |
-| 2025.05.06 | 3 |  Phase 4   | Code Cleanup & Review |
+| 2025.05.05 | 3 |  Phase 4   | Code Cleanup & Review |
 | 2025.05.07 | 3 |  Phase 4   | Testing|
 | 2025.05.08 | 2 |  Phase 4   | Final Documentation| 39
 
