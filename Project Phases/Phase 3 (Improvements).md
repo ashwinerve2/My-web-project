@@ -2,7 +2,7 @@
 
 ### Description
 
-During the Phase 3 of the NumBase project, the focus was on refining the application. The enhancements mostly addresses user feedback, error handling and improves the overall functionality. The UI/UX was refined for responsiveness.
+During the Phase 3 of the NumBase project, the focus was on refining the application. The enhancements mostly addresses user feedback, error handling and improves the overall functionality. The UI/UX was refined for responsiveness. Additionally, the application was subjected to automatic and manual testings.
 
 ### Implementation
 
@@ -14,6 +14,7 @@ The following improvements covers all five use cases of this project:
 - **Copy Button Feedback**: Added visual feedback to the copy buttons to indicate successful copying.
 - **Layout Adjustments**: Combined and clearly separated the converter and calculator sections for simplicity and ease.
 - **Styling Enhancements**: Applied consistent styling to headings and links to create a cohesive look.
+- **Testing**: Successfully tested core functions and interactions with Jest and Playwright. Manually tested for confirmations.
 
   
 ### Challenges
@@ -25,6 +26,6 @@ The following improvements covers all five use cases of this project:
 
 ### Outcome
 
-The application is able to fulfill its promise as defined in previous phases. The enhancements led to a more polished and a reliable application. Users can now interact with the converter and calculator more efficiently, with clear feedback and a visually appealing interface. Still there is room for improvements. 
+The application is able to fulfill its promises and all use cases/features were successfully implemented. The enhancements led to a more polished and a reliable application. Users can now interact with the converter and calculator more efficiently, with clear feedback and a visually appealing interface. Still there is room for improvements. Looking forward to the final phase.
 
 
