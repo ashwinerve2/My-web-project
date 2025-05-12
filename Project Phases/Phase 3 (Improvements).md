@@ -18,7 +18,7 @@ The following improvements covers all five use cases of this project:
   
 ### Challenges
 
-- **Input Handling**: Ensuring smooth real-time updates without causing flickers. (Needs more improvement)
+- **I/O Handling**: Ensuring smooth real-time updates without causing flickers. (Needs more improvement)
 - **Visual Consistency**: Achieving a balanced and consistent look across all sections of the app.
 - **Error Handling**: Fully handling errors both from both backend and frontend.
 
