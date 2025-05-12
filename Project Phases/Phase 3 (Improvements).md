@@ -2,7 +2,7 @@
 
 ### Description
 
-During the Phase 3 of the NumBase project, the focus was on refining the UI/UX to create a more reliable and responsive application. The enhancements addresses user feedback and improve the overall functionality and error handling.
+During the Phase 3 of the NumBase project, the focus was on refining the UI/UX to create a more reliable and responsive application. The enhancements addresses user feedback and improves the overall functionality and error handling.
 
 ### Implementation
 
