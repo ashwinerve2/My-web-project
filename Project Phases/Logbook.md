@@ -9,7 +9,7 @@
 | 2025.04.15 | 3 | Phase 2  | Defined Environments (Backend, Frontend, Testing)   |
 | 2025.04.18 | 2 |  Phase 2  | Defined Error Handling and UI Interaction  |
 | 2025.04.19 | 2 |  Phase 2  | Defined Structure and Functionalities  |
-| 2025.04.21 | 1 |  Phase 2  | Documentation  |
+| 2025.04.21 | 2 |  Phase 2  | Documentation  |
 | 2025.05.10 | 3 |  Phase 3   | Frontend Optimization |
 | 2025.05.10 | 2 |  Phase 3   | Improved API Communication |
 | 2025.05.11 | 3 |  Phase 3   | UX Enhancements |
