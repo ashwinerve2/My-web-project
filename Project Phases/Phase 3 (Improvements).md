@@ -1,4 +1,4 @@
-# Phase 3:Improvements and Cleanup
+# Phase 3 : Improvements and Cleanup
 
 ### Description
 
