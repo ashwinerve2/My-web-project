@@ -26,6 +26,6 @@ The following improvements covers all five use cases of this project:
 
 ### Outcome
 
-The application is able to fulfill its promises and all use cases/features were successfully implemented. The enhancements led to a more polished and a reliable application. Users can now interact with the converter and calculator more efficiently, with clear feedback and a visually appealing interface. Still there is room for improvements. Looking forward to the final phase.
+The application is able to fulfill its promises and all use cases/features were successfully implemented. The enhancements led to a more polished and reliable application. Users can now interact with the converter and calculator more efficiently, with clear feedback and a visually appealing interface. Still there is room for improvements. Looking forward to the final phase.
 
 
