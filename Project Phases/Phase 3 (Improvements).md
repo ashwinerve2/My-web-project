@@ -2,11 +2,11 @@
 
 ### Description
 
-During Phase 3 of the NumBase project, the focus was on refining the user experience and interface to create a more intuitive and responsive application. The enhancements were aimed to address user feedback and improve the overall functionality of the converter and calculator sections.
+During the Phase 3 of the NumBase project, the focus was on refining the user experience and interface to create a more intuitive and responsive application. The enhancements were aimed to address user feedback and improve the overall functionality and error handling.
 
 ### Implementation
 
-The following adjustments covers all five use cases of this project.
+The following improvements covers all five use cases of this project.
 
 - **Smooth Results**: Prevented unnecessary API calls during rapid user input, ensuring smoother performance.
 - **Error Handling**: Improved error messages by catching more invalidations.
@@ -17,7 +17,7 @@ The following adjustments covers all five use cases of this project.
 
 ### Challenges
 
-- **Input Handling**: Ensuring smooth real-time updates without causing flickers.
+- **Input Handling**: Ensuring smooth real-time updates without causing flickers. (Needs more improvement)
 - **Visual Consistency**: Achieving a balanced and consistent look across all sections of the app.
 - **Error Handling**: Fully handling errors both from both backend and frontend.
 
@@ -25,3 +25,5 @@ The following adjustments covers all five use cases of this project.
 ### Outcome
 
 The enhancements led to a more polished and user-friendly application. Users can now interact with the converter and calculator more efficiently, with clear feedback and a visually appealing interface.
+
+
