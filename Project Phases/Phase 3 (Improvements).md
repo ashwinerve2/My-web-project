@@ -6,7 +6,7 @@ During the Phase 3 of the NumBase project, the focus was on refining the UI/UX t
 
 ### Implementation
 
-The following improvements covers all five use cases of this project.
+The following improvements covers all five use cases of this project:
 
 - **Code Cleanup**: Removed unnecessary parts of codes and simplified everything.
 - **Smooth Results**: Prevented unnecessary API calls during rapid user input, ensuring smoother performance.
