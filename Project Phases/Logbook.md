@@ -10,12 +10,10 @@
 | 2025.04.18 | 2 |  Phase 2  | Defined Error Handling and UI Interaction  |
 | 2025.04.19 | 2 |  Phase 2  | Defined Structure and Functionalities  |
 | 2025.04.21 | 1 |  Phase 2  | Documentation  |
-                                                        |
-|------------|------------|--------------------|--------------------------------------------------------------------------|
-| 2025.05.10 | 3          |  Phase 3   | Frontend Optimization |
-| 2025.05.10 | 2          |  Phase 3   | Improved API Communication |
-| 2025.05.11 | 3          |  Phase 3   | UX Enhancements |
-| 2025.05.11 | 2        |  Phase 3   | UI Layout Refinement |
-| 2025.05.12 | 3          |  Phase 3   | Styling & Polish |
-| 2025.05.12 | 2          |  Phase 3   | Code Cleanup & Review |
+| 2025.05.10 | 3 |  Phase 3   | Frontend Optimization |
+| 2025.05.10 | 2 |  Phase 3   | Improved API Communication |
+| 2025.05.11 | 3 |  Phase 3   | UX Enhancements |
+| 2025.05.11 | 2 |  Phase 3   | UI Layout Refinement |
+| 2025.05.12 | 3 |  Phase 3   | Styling & Polish |
+| 2025.05.12 | 2 |  Phase 3   | Code Cleanup & Review |
 
