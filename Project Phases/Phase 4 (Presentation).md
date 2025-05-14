@@ -2,7 +2,7 @@
 
 ## 📝 Project Overview
 
-**NumBase** is a simple web application tailored for developers, students, and tech enthusiasts who work with different number systems such as binary, octal, decimal, and hexadecimal. The application merges two essential tools; base conversion and base-specific arithmetic into a single, clean interface. 
+**NumBase** is a simplistic and easy to use web application for developers, students, and tech enthusiasts who work with different number systems such as binary, octal, decimal, and hexadecimal. The application merges two essential tools; base conversion and base-specific arithmetic into a single, clean interface. 
 
 Designed with a dark-themed minimalist UI, NumBase focuses on real-time usability, seamless input validation, and efficient backend integration.
 
