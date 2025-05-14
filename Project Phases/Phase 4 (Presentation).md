@@ -30,7 +30,7 @@ The NumBase web application is built using a lightweight and minimalist technolo
   - Base conversion and arithmetic functionality across binary, decimal, octal, and hexadecimal systems.
   - Input validation using regular expressions to ensure valid base-specific inputs.
   - Interactive feedback, including result display areas and **copy-to-clipboard** buttons with visual confirmation.
-  - Responsive layout using media queries for mobile support.
+  
 
 #### 🚀 Backend
 
@@ -42,7 +42,7 @@ The NumBase web application is built using a lightweight and minimalist technolo
   - `GET /api/history`: Retrieves a list of recent operations stored in the database.
 - **CORS**: Cross-Origin Resource Sharing is enabled to facilitate safe frontend-backend communication.
 
-This architecture ensures the application remains fast, easily deployable, and beginner-friendly for future contributors.
+This architecture ensures the application remains fast, easily deployable, and beginner-friendly.
 
 ## 🚂 Development Process
 
