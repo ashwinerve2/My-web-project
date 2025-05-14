@@ -20,8 +20,6 @@ Refer to full use cases in [Phase 1](https://github.com/ashwinerve2/My-web-proje
 
 ## ✍️ Technical Implementation
 
-✍️ **Technical Implementation**
-
 The NumBase web application is built using a lightweight and minimalist technology stack designed for clarity, responsiveness, and performance. Below is a breakdown of the technologies and key implementation details:
 
 #### 🖥️ Frontend
