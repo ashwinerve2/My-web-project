@@ -20,7 +20,7 @@ Refer to full use cases in [Phase 1](https://github.com/ashwinerve2/My-web-proje
 
 ## ✍️ Technical Implementation
 
-The frontend is built with **HTML, CSS, and JavaScript**, using minimalist styling principles. Input debouncing is used to prevent UI flickering on fast keystrokes.
+The frontend is built with **HTML, CSS, and JavaScript**, using minimalist styling principles. 
 
 The backend is built using **Node.js and Express.js**, with RESTful endpoints for:
 - `/api/convert` — to handle base conversions.
