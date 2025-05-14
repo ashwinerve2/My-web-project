@@ -72,10 +72,8 @@ Throughout the project, attention was paid to usability, visual clarity, and fun
 - Adding more arithmetic functions like modulo, power, and bitwise operations.
 - Allowing export or persistent storage of user history.
 
-## 📊 Work Hours Log
+## 📊 Logbook
 
-
-# Project logbook
 
 | Date  | Used hours | Subject(s) |  Outcome |
 | :---  |     :---:      |     :---:      |     :---:      |
