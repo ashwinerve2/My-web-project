@@ -41,7 +41,7 @@ The NumBase web application is built using a lightweight and minimalist technolo
   - `POST /api/convert`: Converts a number from one base to another.
   - `POST /api/calculate`: Performs arithmetic operations in a given base.
   - `GET /api/history`: Retrieves a list of recent operations stored in the database.
-- **CORS**: Cross-Origin Resource Sharing is enabled to facilitate safe frontend-backend communication.
+- **CORS**:  Common best practice when building APIs. 
 
 This architecture ensures the application remains fast, easily deployable, and beginner-friendly.
 
