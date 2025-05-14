@@ -85,5 +85,5 @@ Throughout the project, attention was paid to usability, visual clarity, and fun
 | 2025.05.08 | 2 |  Phase 4   | Documentation and Presentation| 
 | **Total**  | **52 hours** | |
 
-**The presentation will be live on Friday session.**
+**The demonstration will be done live on Friday session.**
 
