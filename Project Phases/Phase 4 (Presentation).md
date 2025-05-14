@@ -24,12 +24,13 @@ The NumBase web application is built using a lightweight and minimalist technolo
 
 #### 🖥️ Frontend
 
-- **HTML5 & CSS3**: The user interface is structured with semantic HTML and styled using custom CSS. A **dark mode UI** is implemented by default to enhance readability and reduce eye strain.
+- **HTML5 & CSS3**: The user interface is structured with semantic HTML and styled using custom CSS. 
 - **Vanilla JavaScript**: The app uses plain JavaScript for DOM manipulation, input validation, API communication, and result rendering. No frontend frameworks (such as React or Vue) are used, ensuring minimal load time and reduced complexity.
 - **Features**:
   - Base conversion and arithmetic functionality across binary, decimal, octal, and hexadecimal systems.
   - Input validation using regular expressions to ensure valid base-specific inputs.
   - Interactive feedback, including result display areas and **copy-to-clipboard** buttons with visual confirmation.
+  - A **dark mode** UI is implemented by default to enhance readability and reduce eye strain.
   
 
 #### 🚀 Backend
