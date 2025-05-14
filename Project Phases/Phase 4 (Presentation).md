@@ -82,7 +82,7 @@ Throughout the project, attention was paid to usability, visual clarity, and fun
 | 2025.05.05 | 4 |  Phase 3   | Styling & Polish |
 | 2025.05.05 | 3 |  Phase 3   | Code Cleanup & Review |
 | 2025.05.07 | 3 |  Phase 3   | Testing|
-| 2025.05.08 | 3 |  Phase 4   | Documentation and Presentation| 
-
+| 2025.05.08 | 2 |  Phase 4   | Documentation and Presentation| 
+| **Total**  | **52 hours** | |
 
 
