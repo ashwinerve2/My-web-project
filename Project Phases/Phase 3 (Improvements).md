@@ -9,7 +9,7 @@ During the Phase 3 of the NumBase project, the focus was on refining the applica
 The following improvements covers all five use cases of this project:
 
 - **Code Cleanup**: Removed unnecessary parts of codes and simplified everything.
-- **Smooth Results**: Prevented unnecessary API calls during rapid user input, ensuring smoother performance.
+- **Smooth Results**: Prevented unnecessary API calls during rapid user input, ensuring smoother performance. Used debouncing and delays.
 - **Error Handling**: Improved error handling and feedback by catching almost all possible invalidations.
 - **Copy Button Feedback**: Added visual feedback to the copy buttons to indicate successful copying.
 - **Layout Adjustments**: Combined and then clearly separated the converter and calculator sections for simplicity and ease.
