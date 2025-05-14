@@ -63,18 +63,26 @@ Throughout the project, attention was paid to usability, visual clarity, and fun
 
 ## 📊 Work Hours Log
 
-| Date       | Time | Task |
-|------------|------|------|
-| 2025.04.01 | 2h   | Planning Phase 1 – Defined User Personas |
-| 2025.04.02 | 5h   | Planning Phase 1 – Defined Use Cases and Architecture |
-| 2025.04.15 | 3h   | Planning Phase 2 – Defined Environments |
-| 2025.04.18 | 2h   | Planning Phase 2 – Defined Error Handling and UI Interaction |
-| 2025.04.19 | 2h   | Planning Phase 2 – Defined Structure and Functionalities |
-| 2025.04.21 | 1h   | Planning Phase 2 – Documentation |
-| 2025.05.02 | 3h   | Planning Phase 3 – UI styling and input validation |
-| 2025.05.03 | 3h   | Planning Phase 3 – Copy functionality and visual feedback |
-| 2025.05.04 | 2h   | Planning Phase 3 – Error handling implementation |
-| 2025.05.05 | 2h   | Planning Phase 3 – History view and layout tweaks |
-| 2025.05.14 | 2h   | Planning Phase 4 – Final cleanup and documentation |
-| **Total**  | **27h** | |
+
+# Project logbook
+
+| Date  | Used hours | Subject(s) |  Outcome |
+| :---  |     :---:      |     :---:      |     :---:      |
+| 2025.04.01 | 2 | Phase 1  | Defined User Personas  |
+| 2025.04.02 | 2 |  Phase 1  | Defined Use Cases  |
+| 2025.04.04 | 3 |  Phase 1  | Defined Pages and Architecture  |
+| 2025.04.15 | 2 | Phase 2  | Defined Environments (Backend, Frontend, Testing)   |
+| 2025.04.18 | 2 |  Phase 2  | Defined Error Handling and UI Interaction  |
+| 2025.04.19 | 2 |  Phase 2  | Defined Structure and Functionalities  |
+| 2025.04.27 | 6 |  Phase 2   | Frontend Implementation |
+| 2025.04.29 | 6 |  Phase 2   | Backend Implementation |
+| 2025.04.30 | 5 |  Phase 3   | API Improvement and Error handling |
+| 2025.05.01 | 5 |  Phase 3   | UX Enhancements |
+| 2025.05.02 | 5 |  Phase 3   | UI Layout Refinement |
+| 2025.05.05 | 4 |  Phase 3   | Styling & Polish |
+| 2025.05.05 | 3 |  Phase 3   | Code Cleanup & Review |
+| 2025.05.07 | 3 |  Phase 3   | Testing|
+| 2025.05.08 | 3 |  Phase 4   | Documentation and Presentation| 
+
+
 
