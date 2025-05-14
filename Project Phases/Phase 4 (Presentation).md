@@ -20,18 +20,31 @@ Refer to full use cases in [Phase 1](https://github.com/ashwinerve2/My-web-proje
 
 ## ✍️ Technical Implementation
 
-NumBase was developed using a **Node.js + Express.js** backend with a **vanilla JavaScript frontend**. The architecture follows a simple but efficient separation of concerns:
+✍️ **Technical Implementation**
 
-- **Frontend:** Uses HTML, CSS (custom dark theme), and JavaScript. All user inputs are validated on the client side before requests are made. Dynamic DOM updates and copy-to-clipboard functionality provide a good UX. The layout is responsive and intentionally minimalist for clarity.
-  
-- **Backend:** Built with Express.js, the server exposes three main endpoints:
-  - `POST /api/convert` – accepts a number, source base, and target base, returns the converted result.
-  - `POST /api/calculate` – performs arithmetic operations on two inputs in the selected base.
-  - `GET /api/history` – retrieves stored records of conversions and calculations.
+The NumBase web application is built using a lightweight and minimalist technology stack designed for clarity, responsiveness, and performance. Below is a breakdown of the technologies and key implementation details:
 
-- **State Management:** The app uses in-memory storage for history tracking during the session. Input sanitization and base-specific validation ensure accurate and secure operations.
+#### 🖥️ Frontend
 
-Every result includes a "copy" button with an animated click effect. Errors like invalid inputs or server failures are shown clearly up front.
+- **HTML5 & CSS3**: The user interface is structured with semantic HTML and styled using custom CSS. A **dark mode UI** is implemented by default to enhance readability and reduce eye strain.
+- **Vanilla JavaScript**: The app uses plain JavaScript for DOM manipulation, input validation, API communication, and result rendering. No frontend frameworks (such as React or Vue) are used, ensuring minimal load time and reduced complexity.
+- **Features**:
+  - Base conversion and arithmetic functionality across binary, decimal, octal, and hexadecimal systems.
+  - Input validation using regular expressions to ensure valid base-specific inputs.
+  - Interactive feedback, including result display areas and **copy-to-clipboard** buttons with visual confirmation.
+  - Responsive layout using media queries for mobile support.
+
+#### 🚀 Backend
+
+- **Node.js with Express.js**: Acts as the server-side framework for defining RESTful API endpoints (`/api/convert`, `/api/calculate`, and `/api/history`).
+- **SQLite3**: A lightweight database is used to store a persistent log of conversion and calculation history.
+- **API Design**:
+  - `POST /api/convert`: Converts a number from one base to another.
+  - `POST /api/calculate`: Performs arithmetic operations in a given base.
+  - `GET /api/history`: Retrieves a list of recent operations stored in the database.
+- **CORS**: Cross-Origin Resource Sharing is enabled to facilitate safe frontend-backend communication.
+
+This architecture ensures the application remains fast, easily deployable, and beginner-friendly for future contributors.
 
 ## 🚂 Development Process
 
