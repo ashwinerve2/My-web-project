@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NumBase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="nav-links"> 
+    <div><a href="history.html">View History</a></div>
+    <h1 id="mainTitle">- Welcome to NumBase -</h1>
+  </div>
+ 
+
+  <div class="container">
+    <div class="section" id="converterSection">
+      <h2>Converter</h2>
+      <input type="text" id="inputValue" placeholder="Enter number">
+
+      <div class="dropdowns">
+        <select id="sourceBase">
+          <option value="decimal">Decimal</option>
+          <option value="binary">Binary</option>
+          <option value="octal">Octal</option>
+          <option value="hex">Hexadecimal</option>
+        </select>
+
+        <span>to</span>
+
+        <select id="targetBase">
+          <option value="binary">Binary</option>
+          <option value="decimal">Decimal</option>
+          <option value="octal">Octal</option>
+          <option value="hex">Hexadecimal</option>
+        </select>
+      </div>
+
+      <div id="converterResultArea" class="resultTab">
+        <span id="converterResultText"></span>
+      </div>
+      
+      <button id="copyConverterResult" class="copy-btn" style="display:none;">Copy</button> <!-- New Button -->
+    </div>
+    <hr class="section-divider">
+
+    <div class="section" id="calculatorSection">
+      <h2>Calculator</h2>
+      <input type="text" id="operand1" placeholder="Enter first number">
+      <input type="text" id="operand2" placeholder="Enter second number">
+
+      <div class="dropdowns">
+        <select id="operation">
+          <option value="add">Addition</option>
+          <option value="subtract">Subtraction</option>
+          <option value="multiply">Multiplication</option>
+          <option value="divide">Division</option>
+        </select>
+
+        <select id="base">
+          <option value="binary">Binary</option>
+          <option value="decimal">Decimal</option>
+          <option value="octal">Octal</option>
+          <option value="hex">Hexadecimal</option>
+        </select>
+      </div>
+
+      <div id="calculatorResultArea" class="resultTab">
+        <span id="calculatorResultText"></span>
+      </div>
+      
+      <button id="copyCalculatorResult" class="copy-btn" style="display:none;">Copy</button> <!-- New Button -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  
+  
+</body>
+</html>
